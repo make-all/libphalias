@@ -19,8 +19,8 @@ installation:
 Then simply add the path to this library to your phabricator configuration:
 
 	cd /path/to/install/phabricator
-	./bin/config set load-libraries '["libphalias/src"]'
-	./bin/config set event.listeners '["DiffusionLookupUserAlias"]'
+	./bin/config set load-libraries '["libphalias"]'
+	./bin/config set events.listeners '["DiffusionLookupUserAlias"]'
 
 This extension could also be used to read other alias files, as long as they
 have a similar format to the svn aliases file, which can be parsed by PHP's
