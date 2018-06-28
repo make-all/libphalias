@@ -7,12 +7,17 @@ in the svn aliases file, in order to map them to phabricator users.
 This can be useful if you've already moved users over to a new authentication
 backend, and want to maintain links between users on both svn and phabricator.
 
+NOTE: There is currently work underway to let users specify their own aliases in 
+the Phabricator settings, see https://secure.phabricator.com/T12164 
+This extension may be obsoleted by that work.
+
 Installation
 ------------
 
 To install this library, simply clone this repository alongside your phabricator
 installation:
-
+the Phabricator settings, see https://secure.phabricator.com/T12164 
+This extension may be obsoleted by that work.
     cd /path/to/install
 	git clone https://github.com/make-all/libphalias.git
 
