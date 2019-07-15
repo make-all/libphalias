@@ -16,8 +16,7 @@ Installation
 
 To install this library, simply clone this repository alongside your phabricator
 installation:
-the Phabricator settings, see https://secure.phabricator.com/T12164 
-This extension may be obsoleted by that work.
+
     cd /path/to/install
 	git clone https://github.com/make-all/libphalias.git
 
